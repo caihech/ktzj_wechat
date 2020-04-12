@@ -1,13 +1,32 @@
-<!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
+
+	<image class="brand" src="../image/home-001.jpg"></image>
+
+	<image class="brand" src="../image/home-002.jpg"></image>
+
+	<image class="brand-font" src="../image/home-005.jpg"></image>
+	<image class="brand" src="../image/home-003.jpg"></image>
+
+	<image class="brand" src="../image/home-004.jpg"></image>
+
+	<view>
+
+		<view class="font-company">公司简介</view>
+		<view class="font-company-2">竭诚期待与您的合作。</view>
+		<view class="font-company-3">
+			<view class="font-company-p">
+				　沈阳盛唐坤泰机械设备租赁有限公司本公司是一家专业的高空作业车（aerialworkingplatform，man-lift）销售租赁公司，主要经营高空作业车/升降平台的销售、租赁业务。公司有200多台各类高空作业车，租赁设备型号齐全，有各种类型的自行式曲臂高空作业车、自行式直臂高空作业车、自行式剪型高空作业车、拖式曲臂直臂高空作业车、移动式高空作业平台、叉车、吊车、道路救援车等。主要设备采用世界出名的高空作业车生产厂家——美国吉尼Genie公司、JLG公司、法国Haulotte公司的进口设备和一线国产鼎力高空车、快捷、安全、可靠、诚信，是您高空作业的选择。
+			</view>
+			<view class="font-company-p">
+				　公司主要经营项目为：工程机械销售代理、租赁高空作业平台、高空车租赁、道路救援、园林绿化工程施工、各类进口挖掘机的维修与保养。同时代理销售美国JLG美国吉尼Genie法国Haulotte公司的产品，及二手高空作业设备的销售。
+			</view>
+			<view class="font-company-p">
+				　公司的高空作业车、高空作业平台、升降平台的工作高度从6-45m不等，广范应用于工程建设、厂房搭建施工、厂房维护、市政、电力、路灯、通讯、园林、交通、清洁、工矿、工业安装、设备检修、立体仓库、影视广告拍摄、高空管路的铺设、各种场馆的物业维护、高架桥梁的建造和涂装等各种需要登高作业的场合。根据我公司高空作业车在各施工现场的实践反馈，各施工单位普遍反映这种设备解决了他们在安全上的顾虑，施工安全得到明确保障，同时大大提高施工效率，缩短施工工期，减少旧工艺带来的现场繁多的辅助设施，极大地提高了施工企业的工作进度，降低了工作成本，相信这种设备将成为您在制定施工方案时的选择。
+			</view>
+		</view>
+
+
+	</view>
+
+
 </view>
