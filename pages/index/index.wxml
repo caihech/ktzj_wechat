@@ -32,5 +32,12 @@
 	</view>
 
 
+	<view class="footer">
+		<view class="footer-btn">首页</view>
+		<view class="footer-btn">产品</view>
+		<view class="footer-btn">电话</view>
+		<view class="footer-btn">地图</view>
+	</view>
+
 
 </view>
