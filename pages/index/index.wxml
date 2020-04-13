@@ -9,7 +9,8 @@
 
 	<image class="brand" src="../image/home-004.jpg"></image>
 
-	<view>
+	<view class="font-company-phone1">电话：18502412148</view>
+	<!-- <view>
 
 		<view class="font-company">公司简介</view>
 		<view class="font-company-2">竭诚期待与您的合作。</view>
@@ -29,15 +30,15 @@
 			<view class="font-company-address">地址：沈阳市于洪区造化永强工业园区</view>
 			<view class="font-company-phone">电话：18502412148</view>
 		</view>
-	</view>
+	</view> -->
 
 
-	<view class="footer">
+	<!-- <view class="footer">
 		<view class="footer-btn">首页</view>
 		<view class="footer-btn">产品</view>
 		<view class="footer-btn">电话</view>
 		<view class="footer-btn">地图</view>
-	</view>
+	</view> -->
 
 
 </view>

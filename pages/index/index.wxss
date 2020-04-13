@@ -89,10 +89,21 @@
   border-color: #ffffff;
   border-style: solid;
   background-color: blue;
-  color:#ffffff;
-  /* border-radius: 98rpx; */
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+
+.font-company-phone1 {
+  font-size: 1.2rem;
+  width: 100%;
+  display: block;
+  line-height: 1.9rem;
+  padding-top: 1.3rem;
+  text-align: center;
+  padding-bottom: 1.3rem;
+
 }
